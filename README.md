@@ -1,8 +1,12 @@
-
-
 # Investigating NBA Teams' Style Of Play Over the Last Decade
 
-The goal of this project is to tell the story of the last decade in the NBA, through the lens of style of play.  Using a clustering model, we can contexualize and group how  teams played over the last 10 seasons.  Data analytics has had a huge impact on the game, will this be apparent in our clusters?
+The goal of this project is to tell the story of the last decade in the NBA, through the lens of style of play.  Everything begins and ends with the rise in popularity of the three-pointer.  As the importance of data analytics has risen in front offices around the league, teams are embracing the "3 is more than 2" mantra.  In just 10 years, the average three-point frequency for a team has gone from 22% to 36.8% for a 67% increase.  That is a staggering overhaul in style of play!  The visual below showcases this seismic shift in three point frequency and the resulting uptick in efficiency:
+
+![three point frequency 2013 v 2022](https://git.generalassemb.ly/ao/NBA_Capstone/blob/master/Visuals/three%20point%20frequency%202013%20v%202022%20hist.png)
+
+![pts/100possessions](https://git.generalassemb.ly/ao/NBA_Capstone/blob/master/Visuals/100%20Possessions%20boxplots.jpg)
+
+Have all teams capitulated and hopped on board the efficiency train?   This project uses a KMeans Clustering model to help contexualize and group how teams have responded to the influx of data analytics.  Using results from the clusters, we then analyze how teams playing these different styles have performed.     
 
 -----------------
 # Executive Summary 
@@ -37,10 +41,10 @@ I compiled a dataframe for these statistics, for each team over the last 10 seas
 | Stat      | Cluster 0 | Cluster 1 | Cluster 2
 | ----------- | ----------- |-----------|----------|
 | Year   | 2020 | 2015 | 2017|
-| Frequency of All Threes  | 36.0 % | 23.9 % | 28.0 % |
-| Frequency of Mid-Range Shots | 29.8 % | 41.6 % | 34.0 % |
-| Offensive Rebound Percent | 25.7 % | 27.6 % | 28.1 % |
-| Frequency of Transition | 14.7 % | 13.0 % | 16.6 % |
+| Frequency of All Threes  | 36.0% | 23.9% | 28.0% |
+| Frequency of Mid-Range Shots | 29.8% | 41.6% | 34.0% |
+| Offensive Rebound Percent | 25.7% | 27.6% | 28.1% |
+| Frequency of Transition | 14.7% | 13.0% | 16.6% |
 
 ### Cluster 0
 This is clearly our analytics driven cluster.  Teams in this cluster shot by far the most threes, with an average frequency of 36% (50% more than Cluster 1!).  Hand in hand with this, Cluster 0 teams shot the least amount of mid-range shots, they only shot mid-range shots at a 29.8% frequency.
@@ -60,26 +64,23 @@ Cluster 2 ended up in the middle of Clusters 0 and 1 in most key statistics.  Te
 The `year` makeup was right in the middle of the other two clusters, with the average for Cluster 2 being 2016.7.  What was interesting here were two teams showing up from this current season (2022)--Toronto and Memphis.  Both of these teams had successful regular seasons, particularly Memphis who took the league by storm.  The Grizzlies were projected to finish ~8th in the West before the season, and they ended up in the 2nd spot with a 56-26 record.  Another intriguing aspect of this--Memphis' head coach is Taylor Jenkins, a former Mike Budenholzer assistant.  Again, a link back to the ahead of their time 15-16 Hawks.  Maybe Jenkins and his Grizzlies are ahead of their time in rejecting the all-in approach to analytics.  It's a more modified approach--yes they shoot more threes and less mid-range shots, but not to the extreme degree that Cluster 0 teams do.  I for one am very curious how these Grizzlies end up doing in the 2022 playoffs.
 
 -------------
+## Looking at Performance
+I intentionally excluded performance metrics from the clustering model but ultimately I wanted to know what the best style of play was over the last decade?  And what might it tell us about the best style of play for the _next_ decade?
 
-Although I intentionally excluded performance metrics from the clustering model--ultimately I wanted to know what the best style of play was over the last decade?  And what might it tell us about the best style of play for the next decade?
-
-I added three performance metrics do the data frame to evaluate each cluster.  
+I added three performance features to the dataframe to evaluate each cluster's performance.  
 * `made_playoffs` tracks whether or not the team qualified for the playoffs.
 * `made_finals` tracks whether or not they made the Finals.
 * `won_championship` tracks whether or not they won the title.
 
+| Stat      | Cluster 0 | Cluster 1 | Cluster 2
+| ----------- | ----------- |-----------|----------|
+| Made Playoffs   | 57% | 51% | 51% |
+| Made Finals  | 8.7% | 2.7% | 10% |
+| Won Championship | 3.2% | 1.8% | 5.7% |
 
 
-Everything begins and ends with the rise in popularity of the three-pointer.  As the importance of data analytics has risen in most front offices around the league, teams are embracing the "3 is more than 2" mantra.  In just 5 years (the difference in average `year` between Cluster 0 and Cluster 1), three-point frequency went up from ~24% to 36% for a 50% increase.  That is a massive overhaul in style of play!  The visual below showcases the seismic shift in three-point frequency over the last ten years:
 
-![three point frequency by cluster](https://git.generalassemb.ly/ao/NBA_Capstone/blob/master/Visuals/Frequency%20Threes%20by%20Cluster.jpg)
 
-The effects of the three-point boom can be seen in other, non three-point shooting, statistics.  For example, teams are punting more often on going for offensive rebounds.  Cluster 1 teams rebounded 27.6% of their own shots, whereas Cluster 0 teams only rebounded 2% less of their shots.  Why?  Going for offensive rebounds leaves your defense vulnerable to transition.  This has always been the case, but what's changed is what teams are looking to do in transition.  Instead of trying for a layup or a foul, they're hunting wide-open three point shots (efficiency!).  So our data-driven teams in Cluster 0 are deciding more often that they'd rather forego an offensive rebound in the hopes to guard against these open three-point looks.
-
-### Efficiency, efficiency, efficiency! Is this the only way?  When does it end?
-Overall, data-analytics has pushed the league to get more efficient on the offensive end.  Ten years ago the average points-per-100-possessions was 106.  That number has risen to 112 over the last decade.  
-
-![pts/100possessions](https://git.generalassemb.ly/ao/NBA_Capstone/blob/master/Visuals/100%20Possessions%20boxplots.jpg)
 
 
 

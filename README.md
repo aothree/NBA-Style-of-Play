@@ -1,6 +1,6 @@
 
 
-# Investigating Style Of Play In The NBA
+# Investigating NBA Teams' Style Of Play Over the Last Decade
 
 The goal of this project is to tell the story of the last decade in the NBA, through the lens of style of play.  Using a clustering model, we can contexualize and group how  teams played over the last 10 seasons.  Data analytics has had a huge impact on the game, will this be apparent in our clusters?
 
@@ -52,12 +52,22 @@ It was very interesting to look at the oldest teams in Cluster 0.  Those were: 2
 ### Cluster 1
 Cluster 1 is our old-style cluster.  Teams from this cluster shot 41.6% mid-range shots compared to only 23.9% threes.  They also had the least amount of transition in their gameplan.  They averaged transition plays 13% of the time compared to 16.6% in Cluster 2.
 
-The average `year` for teams in the cluster is 2015.1.  Of the 109 teams in this cluster, only 5 came after 2018, and only two after 2019.  Those two teams were tremendously not-memorable, however it's still interesting to see who they were.  They were two versions of the same team-- 2020 Spurs and 2021 Spurs.  
+The average `year` for teams in the cluster is 2015.1.  Of the 109 teams in this cluster, only 5 came after 2018, and only two after 2019.  Those two teams were tremendously not-memorable, however it's still interesting to see who they were because they were two versions of the same team-- the 2020 and 2021 Spurs.  Gregg Poppovich is widely considered one of the best coaches of all time, and his resume backs it up.  But it's interesting to see him stick stubbornly to his preferred style of play while former assistants of his went the other way once they got head-coaching gigs.  Mike Budenholzer, a longtime assistant for Pop, was the coach of the aforementioned 2015-16 Hawks from Cluster 0.
 
 ### Cluster 2
+Cluster 2 ended up in the middle of Clusters 0 and 1 in most key statistics.  Teams in this cluster shot threes at a 28% frequency while they shot 34% of the time from mid-range.  Interestingly, these teams did run the most--with a 16.6% frequency of transition play.  They also shot most frequently at the rim, 37.7% frequency vs 34.4% and 34.0% in the other two clusters.    
 
+The `year` makeup was right in the middle of the other two clusters, with the average for Cluster 2 being 2016.7.  What was interesting here were two teams showing up from this current season (2022)--Toronto and Memphis.  Both of these teams had successful regular seasons, particularly Memphis who took the league by storm.  The Grizzlies were projected to finish ~8th in the West before the season, and they ended up in the 2nd spot with a 56-26 record.  Another intriguing aspect of this--Memphis' head coach is Taylor Jenkins, a former Mike Budenholzer assistant.  Again, a link back to the ahead of their time 15-16 Hawks.  Maybe Jenkins and his Grizzlies are ahead of their time in rejecting the all-in approach to analytics.  It's a more modified approach--yes they shoot more threes and less mid-range shots, but not to the extreme degree that Cluster 0 teams do.  I for one am very curious how these Grizzlies end up doing in the 2022 playoffs.
 
 -------------
+
+Although I intentionally excluded performance metrics from the clustering model--ultimately I wanted to know what the best style of play was over the last decade?  And what might it tell us about the best style of play for the next decade?
+
+I added three performance metrics do the data frame to evaluate each cluster.  
+* `made_playoffs` tracks whether or not the team qualified for the playoffs.
+* `made_finals` tracks whether or not they made the Finals.
+* `won_championship` tracks whether or not they won the title.
+
 
 
 Everything begins and ends with the rise in popularity of the three-pointer.  As the importance of data analytics has risen in most front offices around the league, teams are embracing the "3 is more than 2" mantra.  In just 5 years (the difference in average `year` between Cluster 0 and Cluster 1), three-point frequency went up from ~24% to 36% for a 50% increase.  That is a massive overhaul in style of play!  The visual below showcases the shift in three-point frequency in our clusters:

@@ -70,7 +70,7 @@ I added three performance metrics do the data frame to evaluate each cluster.
 
 
 
-Everything begins and ends with the rise in popularity of the three-pointer.  As the importance of data analytics has risen in most front offices around the league, teams are embracing the "3 is more than 2" mantra.  In just 5 years (the difference in average `year` between Cluster 0 and Cluster 1), three-point frequency went up from ~24% to 36% for a 50% increase.  That is a massive overhaul in style of play!  The visual below showcases the shift in three-point frequency in our clusters:
+Everything begins and ends with the rise in popularity of the three-pointer.  As the importance of data analytics has risen in most front offices around the league, teams are embracing the "3 is more than 2" mantra.  In just 5 years (the difference in average `year` between Cluster 0 and Cluster 1), three-point frequency went up from ~24% to 36% for a 50% increase.  That is a massive overhaul in style of play!  The visual below showcases the seismic shift in three-point frequency over the last ten years:
 
 ![three point frequency by cluster](https://git.generalassemb.ly/ao/NBA_Capstone/blob/master/Visuals/Frequency%20Threes%20by%20Cluster.jpg)
 

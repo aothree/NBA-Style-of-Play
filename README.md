@@ -2,7 +2,7 @@
 
 The goal of this project is to tell the story of the last decade in the NBA, through the lens of style of play.  Everything begins and ends with the rise in popularity of the three-pointer.  As the importance of data analytics has risen in front offices around the league, teams are embracing the "3 is more than 2" mantra.  In just 10 years, the average three-point frequency for a team has gone from 22% to 36.8% for a 67% increase.  That is a staggering overhaul in style of play!  The visual below showcases this seismic shift in three point frequency and the resulting uptick in efficiency:
 
-![three point frequency 2013 v 2022](https://git.generalassemb.ly/ao/NBA_Capstone/blob/master/Visuals/three%20point%20frequency%202013%20v%202022%20hist.png)
+![three point frequency 2013 v 2022](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/three%20point%20frequency%202013%20v%202022%20hist.png)
 
 ![pts/100possessions](https://git.generalassemb.ly/ao/NBA_Capstone/blob/master/Visuals/100%20Possessions%20boxplots.jpg)
 
@@ -65,7 +65,7 @@ The `year` makeup was right in the middle of the other two clusters, with the av
 
 -------------
 ## Looking at Performance
-I intentionally excluded performance metrics from the clustering model but ultimately I wanted to know what the best style of play was over the last decade?  And what might it tell us about the best style of play for the _next_ decade?
+I intentionally excluded performance metrics from the clustering model but ultimately I wanted to know what the best style of play was over the last decade.  
 
 I added three performance features to the dataframe to evaluate each cluster's performance.  
 * `made_playoffs` tracks whether or not the team qualified for the playoffs.
@@ -92,7 +92,13 @@ If you're still not convinced, look no further than the last two seasons.  The M
 
 ## Next Steps
 
-given the herd mentality on offensive-efficiency, are there certain things that can be exploited?  L
+There are a few things that with more time I would have liked to dive into:
+
+1. Try to predict how the frequency of threes will look over the next decade.  Based on the recent success of teams that don't shoot as many threes as the rest of the league (ie the current version of the Phoenix Suns), my hypothesis would be we've reached a plateau in terms of three point frequency.  I don't think average frequency will rise much higher than it currently is, there are already some signs of pullback in the visual below.  Around 2020, it seems the rate of increase is leveling off some.  But exactly where it will level off would be fun to try and predict.
+
+![line chart 3 frequency](insert pic here)
+
+2. 
 
 
 

@@ -4,7 +4,7 @@ The goal of this project is to tell the story of the last decade in the NBA, thr
 
 ![three point frequency 2013 v 2022](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/three%20point%20frequency%202013%20v%202022%20hist.png)
 
-![pts/100possessions]()
+![pts/100possessions](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/Points%20per%20100poss%20scatter.jpg)
 
 Have all teams capitulated and hopped on board the efficiency train?   This project uses a KMeans Clustering model to help contexualize and group how teams have responded to the influx of data analytics.  Using results from the clusters, we then analyze how teams playing these different styles have performed.     
 

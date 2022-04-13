@@ -78,10 +78,21 @@ I added three performance features to the dataframe to evaluate each cluster's p
 | Made Finals  | 8.7% | 2.7% | 10% |
 | Won Championship | 3.2% | 1.8% | 5.7% |
 
+What I found was interesting.  If you were a GM deciding on style of play for your team, it depends what stage your team is at.  Cluster 0 teams made the playoffs at the highest rate--57% vs 51% in the other two clusters.  So if you were a team that had not had recent success and you were trying to turn the tide and make a playoff push--the analytics style of play seems to be the best bet.  
 
+However if you're already a good team, and you have higher goals like making the Finals and/or winning a ring, it actually appears Cluster 2's style of play is the way to go.  Teams in Cluster 2 had the highest rate of making the finals (10%) and winning the championship (5.7%).  This is refreshing information and should give some pause to the herd mentality in the league surrounding style of play.  
 
+## Conclusions
 
+The rush to eschew the midrange in favor of shooting globs of threes, is understandable.  The pure mathematics behind it make sense.  If you shoot 100 two point shots, and make 50% of them, you're scorring 100 points per 100 possessions.  If you shoot 100 three pointers, and make just 34% of them, you wind up with a more efficient 102 points per 100 possessions.  If you are a team in the NBA that hasn't had much success, it's hard to argue this might be the quickest way to turn things around--to play a data-driven approach to offense.  
 
+But, this isn't the only way.  As the performance metrics in Cluster 2 show--it seems like the new-age Cluster 0 style of play actually may not be the best way to get to the Finals and win championships.  
+
+If you're still not convinced, look no further than the last two seasons.  The Milwaukee Bucks and Phoenix Suns made the 2021 Finals while shooting three pointers with 37.6% and 36.6% frequency, good for 12th and 15th in terms of frequency across the league.  The 2022 Phoenix Suns just finished the regular season with a league-best 64-18 record, and are the favorites in Vegas to win the championship.  What did their style of play look like?  They shot the 5th *fewest* threes in the league this year--at only a 33% frequency.  What about dreaded inefficient mid-range shots?  Phoenix shot 41.7% of their shots from the midrange--the most in the league.  
+
+## Next Steps
+
+given the herd mentality on offensive-efficiency, are there certain things that can be exploited?  L
 
 
 

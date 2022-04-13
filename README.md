@@ -6,7 +6,7 @@ The goal of this project is to tell the story of the last decade in the NBA, thr
 
 ![pts/100possessions](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/Points%20per%20100poss%20scatter.jpg)
 
-Have all teams capitulated and hopped on board the efficiency train?   This project uses a KMeans Clustering model to help contexualize and group how teams have responded to the influx of data analytics.  Using results from the clusters, we then analyze how teams playing these different styles have performed.     
+It appears all teams have hopped on board the efficiency train.  This project uses a KMeans Clustering model to help contexualize exactly *how* teams have responded to the influx of data analytics.  Using results from the clusters, the final step was analyzing how the different styles of play ultimately performed.       
 
 -----------------
 # Executive Summary 
@@ -96,7 +96,7 @@ There are a few different roads I'd like to go down as a result of this project:
 
 1. Try to predict how the frequency of threes will look over the next decade.  Based on the recent success of teams that don't shoot as many threes as the rest of the league (ie the current version of the Phoenix Suns), my hypothesis would be we've reached a plateau in terms of three point frequency.  I don't think average frequency will rise much higher than it currently is, there are already some signs of pullback in the visual below.  Around 2020, it seems the rate of increase is leveling off some.  But exactly where it will level off would be fun to try and predict.
 
-![shaded hist 3 frequency]()
+![shaded hist 3 frequency](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/frequency%20three%20pointers%20shades%20of%20orange.png)
 
 2. Investigate how this three-point boom has changed roster composition.  Look at the standard deviation of field goal % for all players in the league.  The hypothesis would be that standard deviation has shrunk.  In the 90s for example, you had a lot of Dennis Rodman types--players whose impact on the game had nothing to do with their ability to shoot.  Nowadays, the ability to shoot feels like a pre-requisite to playing in the NBA.
 

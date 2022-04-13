@@ -92,11 +92,11 @@ If you're still not convinced, look no further than the last two seasons.  The M
 
 ## Next Steps
 
-There are a few things that with more time I would have liked to dive into:
+There are a few different roads I'd like to go down as a result of this project:
 
 1. Try to predict how the frequency of threes will look over the next decade.  Based on the recent success of teams that don't shoot as many threes as the rest of the league (ie the current version of the Phoenix Suns), my hypothesis would be we've reached a plateau in terms of three point frequency.  I don't think average frequency will rise much higher than it currently is, there are already some signs of pullback in the visual below.  Around 2020, it seems the rate of increase is leveling off some.  But exactly where it will level off would be fun to try and predict.
 
-![line chart 3 frequency](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/line%20chart%20threes%202013_2022.png)
+![shaded hist 3 frequency]()
 
 2. Investigate how this three-point boom has changed roster composition.  Look at the standard deviation of field goal % for all players in the league.  The hypothesis would be that standard deviation has shrunk.  In the 90s for example, you had a lot of Dennis Rodman types--players whose impact on the game had nothing to do with their ability to shoot.  Nowadays, the ability to shoot feels like a pre-requisite to playing in the NBA.
 

@@ -1,10 +1,10 @@
 # Investigating NBA Teams' Style Of Play Over the Last Decade
 
-The goal of this project is to tell the story of the last decade in the NBA, through the lens of style of play.  Everything begins and ends with the rise in popularity of the three-pointer.  As the importance of data analytics has risen in front offices around the league, teams are embracing the "3 is more than 2" mantra.  In just 10 years, the average three-point frequency for a team has gone from 22% to 36.8% for a 67% increase.  That is a staggering overhaul in style of play!  The visual below showcases this seismic shift in three point frequency and the resulting uptick in efficiency:
+The goal of this project is to tell the story of the last decade in the NBA, through the lens of style of play.  Everything begins and ends with the rise in popularity of the three-pointer.  As the importance of data analytics has risen in front offices around the league, teams are embracing the "3 is more than 2" mantra.  In just 10 years, the average three-point frequency for a team has gone from 22% to 36.8% for a 67% increase.  That is a staggering overhaul in style of play!  The visuals below showcases this seismic shift in three point frequency and the resulting uptick in efficiency:
 
 ![three point frequency 2013 v 2022](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/three%20point%20frequency%202013%20v%202022%20hist.png)
 
-![pts/100possessions](https://git.generalassemb.ly/ao/NBA_Capstone/blob/master/Visuals/100%20Possessions%20boxplots.jpg)
+![pts/100possessions]()
 
 Have all teams capitulated and hopped on board the efficiency train?   This project uses a KMeans Clustering model to help contexualize and group how teams have responded to the influx of data analytics.  Using results from the clusters, we then analyze how teams playing these different styles have performed.     
 
@@ -96,9 +96,11 @@ There are a few things that with more time I would have liked to dive into:
 
 1. Try to predict how the frequency of threes will look over the next decade.  Based on the recent success of teams that don't shoot as many threes as the rest of the league (ie the current version of the Phoenix Suns), my hypothesis would be we've reached a plateau in terms of three point frequency.  I don't think average frequency will rise much higher than it currently is, there are already some signs of pullback in the visual below.  Around 2020, it seems the rate of increase is leveling off some.  But exactly where it will level off would be fun to try and predict.
 
-![line chart 3 frequency](insert pic here)
+![line chart 3 frequency](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/line%20chart%20threes%202013_2022.png)
 
-2. 
+2. Investigate how this three-point boom has changed roster composition.  Look at the standard deviation of field goal % for all players in the league.  The hypothesis would be that standard deviation has shrunk.  In the 90s for example, you had a lot of Dennis Rodman types--players whose impact on the game had nothing to do with their ability to shoot.  Nowadays, the ability to shoot feels like a pre-requisite to playing in the NBA.
+
+3. Do a similar clustering analysis--but analyzing style of play on the defensive end.  The defensive end is often ignored (guilty!) but is widely considered just as important to winning as offense.  How have defensive strategies evolved during the three-point boom?
 
 
 

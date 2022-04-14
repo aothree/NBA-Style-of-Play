@@ -84,7 +84,7 @@ However if you're already a good team, and you have higher goals like making the
 
 ## Conclusions
 
-![basketball line plot comparison threes v midrange from 2013-2022](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/Three%20Point%20Frequency%20vs%20Midrange%20Frequency.png)
+![basketball line plot comparison threes v midrange from 2013-2022](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/basketball%20markers.png)
 
 The rush to eschew the midrange in favor of shooting globs of threes, is understandable.  The pure mathematics behind it make sense.  If you shoot 100 two point shots, and make 50% of them, you're scorring 100 points per 100 possessions.  If you shoot 100 three pointers, and make just 34% of them, you wind up with a more efficient 102 points per 100 possessions.  If you are a team in the NBA that hasn't had much success, it's hard to argue this might be the quickest way to turn things around--to play a data-driven approach to offense.  This shows in that Cluster 0 teams made the playoffs at the highest rate of any cluster.
 
@@ -98,7 +98,7 @@ There are a few different roads I'd like to go down as a result of this project:
 
 1. Try to predict how the frequency of threes will look over the next decade.  Based on the recent success of teams that don't shoot as many threes as the rest of the league (ie the current version of the Phoenix Suns), my hypothesis would be we've reached a plateau in terms of three point frequency.  I don't think average frequency will rise much higher than it currently is, there are already some signs of pullback in the visual below.  Around 2020, it seems the rate of increase is leveling off some.  But exactly where it will level off would be fun to try and predict.
 
-![shaded hist 3 frequency](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/frequency%20three%20pointers%20shades%20of%20orange.png)
+![shaded hist 3 frequency](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/resized%20requency%20three%20pointers%20shades%20of%20orange.png)
 
 2. Investigate how this three-point boom has changed roster composition.  Look at the standard deviation of field goal % for all players in the league.  The hypothesis would be that standard deviation has shrunk.  In the 90s for example, you had a lot of Dennis Rodman types--players whose impact on the game had nothing to do with their ability to shoot.  Nowadays, the ability to shoot feels like a pre-requisite to playing in the NBA.
 

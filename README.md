@@ -2,7 +2,7 @@
 
 The goal of this project is to tell the story of the last decade in the NBA, through the lens of style of play.  Everything begins and ends with the rise in popularity of the three-pointer.  As the importance of data analytics has risen in front offices around the league, teams are embracing the "3 is more than 2" mantra.  In just 10 years, the average three-point frequency for a team has gone from 22% to 36.8% for a 67% increase.  That is a staggering overhaul in style of play!  The visuals below showcases this seismic shift in three point frequency and the resulting uptick in efficiency:
 
-![three point frequency 2013 v 2022]()
+![three point frequency 2013 v 2022](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/three%20point%20frequency%202013%20v%202022%20hist.png)
 
 ![pts/100possessions](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/Points%20per%20100poss%20scatter.jpg)
 

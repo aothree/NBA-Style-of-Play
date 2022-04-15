@@ -2,9 +2,13 @@
 
 The goal of this project is to tell the story of the last decade in the NBA through the lens of style of play.  Everything begins and ends with the three-point boom.  As the importance of data analytics has risen in front offices around the league, teams are embracing the "3 is more than 2" mantra.  Ten years ago, 22 % of an average nba team's shots were three pointers.  In 2022, that number has risen 67%, to 36.8 %.  That is a staggering overhaul in style of play!  The visuals below showcases this seismic shift in three point frequency and the resulting uptick in efficiency:
 
-![three point frequency 2013 v 2022](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/three%20point%20frequency%202013%20v%202022%20hist.png)
+<p align="center">
+  <img src="https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/three%20point%20frequency%202013%20v%202022%20hist.png"/>
+</p>
 
-![pts/100possessions](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/Points%20per%20100poss%20scatter.jpg)
+<p align="center">
+  <img src="https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/Points%20per%20100poss%20scatter.jpg"/>
+</p>
 
 This project uses a KMeans Clustering model to help contexualize exactly *how* teams have adjusted their style of play with the influx of data analytics.  Using results from the clusters, the final step was analyzing how team ultimately performed using the different styles of play.       
 
@@ -89,7 +93,9 @@ However if you have higher goals like making the Finals and/or winning a ring, i
 
 ## Conclusions
 
-![basketball line plot comparison threes v midrange from 2013-2022](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/basketball%20markers.png)
+<p align="center">
+  <img src="https://github.com/aothree/NBA-Style-of-lay/blob/master/Visuals/basketball%20markers.png"/>
+</p>
 
 The rush to eschew the midrange in favor of shooting globs of threes has happened, and it's understandable.  The math behind the strategy make sense.  If you shoot 100 two point shots, and make 50% of them, you're scoring 100 points per 100 possessions.  If you shoot 100 three pointers, and make just 34% of them, you wind up with a more efficient 102 points per 100 possessions.  If you are a team in the NBA that hasn't had much success, it's hard to argue this might be the quickest way to turn things around--to be as efficient as possible and play with a data-driven approach. After all, Cluster 0 teams made the playoffs at the highest rate.  
 
@@ -104,8 +110,6 @@ Basketball is like music.  At its best when flowing with creativity.  The data a
 There are a few different roads I'd like to go down as a result of this project:
 
 1. Try to predict how the frequency of threes will look over the next decade.  Based on the recent success of teams that don't shoot as many threes as the rest of the league (ie the 2022 Phoenix Suns), my hypothesis would be we've reached a plateau in terms of three point frequency.  I don't think average frequency will rise much higher than it currently is, there are already some signs of pullback in the visual below.  Around 2020, it seems the rate of increase is leveling off some.  But exactly where it will level off would be fun to try and predict.
-
-![shaded hist 3 frequency](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/resized%20requency%20three%20pointers%20shades%20of%20orange.png)
 
 <p align="center">
   <img src="https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/resized%20requency%20three%20pointers%20shades%20of%20orange.png" />

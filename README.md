@@ -107,6 +107,10 @@ There are a few different roads I'd like to go down as a result of this project:
 
 ![shaded hist 3 frequency](https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/resized%20requency%20three%20pointers%20shades%20of%20orange.png)
 
+<p align="center">
+  <img src="https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/resized%20requency%20three%20pointers%20shades%20of%20orange.png" />
+</p>
+
 2. Investigate how this three-point boom has changed roster composition.  Before the analytics boom, the NBA had a lot of Dennis Rodman types--players whose impact on the game had nothing to do with their ability to shoot.  Nowadays, the ability to shoot feels like a pre-requisite to playing in the NBA.  I would guess the aggregate field goal % has gone up as there are simply more shooters on the floor than their used ot be.  
 
 3. Do a similar clustering analysis--but analyzing style of play on the defensive end.  The defensive end is often ignored (guilty!) but isjust as important to winning as offense.  How have defensive strategies evolved during the three-point boom?  How does this tie in with roster composition?  More three point threats = the need for more mobile defenders = the death of the big man?

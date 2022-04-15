@@ -93,9 +93,7 @@ However if you have higher goals like making the Finals and/or winning a ring, i
 
 ## Conclusions
 
-<p align="center">
-  <img src="https://github.com/aothree/NBA-Style-of-lay/blob/master/Visuals/basketball%20markers.png"/>
-</p>
+![basketball markers viz]('https://github.com/aothree/NBA-Style-of-lay/blob/master/Visuals/basketball%20markers.png')
 
 The rush to eschew the midrange in favor of shooting globs of threes has happened, and it's understandable.  The math behind the strategy make sense.  If you shoot 100 two point shots, and make 50% of them, you're scoring 100 points per 100 possessions.  If you shoot 100 three pointers, and make just 34% of them, you wind up with a more efficient 102 points per 100 possessions.  If you are a team in the NBA that hasn't had much success, it's hard to argue this might be the quickest way to turn things around--to be as efficient as possible and play with a data-driven approach. After all, Cluster 0 teams made the playoffs at the highest rate.  
 

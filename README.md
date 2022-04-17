@@ -93,8 +93,6 @@ However if you have higher goals like making the Finals and/or winning a ring, i
 
 ## Conclusions
 
-![basketball markers viz]('https://github.com/aothree/NBA-Style-of-lay/blob/master/Visuals/basketball%20markers.png')
-
 <p align="center">
   <img src="https://github.com/aothree/NBA-Style-of-Play/blob/master/Visuals/basketball%20markers.png" />
 </p>
